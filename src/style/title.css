@@ -1,0 +1,45 @@
+.title-root{
+    height: 90px;
+    padding: 25px 20px;
+    border-bottom: 1px solid rgb(231, 231, 231);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-wrapper-title{
+    font-size: 36px;
+    color: #000;
+}
+.left-content-logo-left{
+    font-weight: 400;
+}
+.left-content-logo-right{
+    font-weight: 200;
+}
+.right-wrapper-title{
+    display: flex;
+    align-items: center;
+}
+.right-menus{
+    margin-right:30px;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: 300;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s;
+}
+.right-menus:hover{
+    transform: scale(1.2);
+}
+.right-search-icon{
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.right-search-icon:hover{
+    transform: scale(1.2);
+}
+.input-search-wrapper{
+    transition: all 0.2s;
+}
