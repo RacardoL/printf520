@@ -1,0 +1,25 @@
+.hot-root{
+    margin-top: 20px;
+}
+.hot-title-wrapper{
+    display: flex;
+    color: #555;
+    font-size: 14px;
+}
+.hot-title-content{
+    height: 42px;
+    padding: 0 15px;
+    margin: 0;
+    line-height: 42px;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.hot-title-content:hover{
+    background: #eee;
+}
+.border-choice{
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}

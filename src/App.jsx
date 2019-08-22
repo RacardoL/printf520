@@ -3,6 +3,7 @@ import { Provider } from 'react-redux'
 import store from './store'
 import Title from './views/components/Title'
 import Foot from './views/components/Foot'
+import Hot from './views/hot/Hot'
 import './style/app.css'
 
 class App extends React.Component {
@@ -16,6 +17,7 @@ class App extends React.Component {
       <Provider store={store}>
         <div className="layout-root">
           <Title />
+          <Hot />
           <Foot />
         </div>
       </Provider>
