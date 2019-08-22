@@ -24,6 +24,7 @@ module.exports = {
   ],
   rules: {
     semi: [2, 'never'],
+    "react/no-unescaped-entities": [0],
     "react/jsx-one-expression-per-line": [0],
     "react/destructuring-assignment": [0],
     "generator-star-spacing": [0],

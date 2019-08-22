@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import '../../style/title.css'
 import { Icon, Input } from 'antd'
-import { CSSTransition } from 'react-transition-group'
 
 class Title extends Component {
   constructor(props) {

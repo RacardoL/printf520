@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0687dfd0-3e12-4575-a8a5-ad8d0b9f90e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/title.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/components/Foot.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/components/Title.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/hot/Hot.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/foot.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/components/Foot.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/components/Foot.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/components/Title.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/components/Title.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +83,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566271646076</updated>
-      <workItem from="1566271648560" duration="11007000" />
+      <workItem from="1566271648560" duration="11155000" />
+      <workItem from="1566435145259" duration="922000" />
     </task>
     <task id="LOCAL-00001" summary="[init] init program">
       <created>1566273783596</created>
@@ -140,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566274144100</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[add] finished Title component">
+      <created>1566295059998</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1566295059998</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +146,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -162,6 +159,7 @@
     <MESSAGE value="[add] add eslint rules" />
     <MESSAGE value="[add]  edit gitignore" />
     <MESSAGE value="[add] edit readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="[add] edit readme" />
+    <MESSAGE value="[add] finished Title component" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add] finished Title component" />
   </component>
 </project>

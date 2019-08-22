@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import '../../style/foot.css'
 class Foot extends Component {
   constructor(props) {
     super(props)
@@ -8,7 +8,9 @@ class Foot extends Component {
 
   render() {
     return (
-      <div>Foot</div>
+      <div className="foot-root">
+        <span>© Wr.W's blog copyright-蜀ICP备17040223号</span>
+      </div>
     )
   }
 }
