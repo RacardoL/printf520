@@ -18,9 +18,10 @@ function* getHotList(item) {
 function* getTypes() {
   try {
     const res = yield getTypeList()
-    console.log(res)
     const action = asyncGetType(res.data.Data)
     yield put(action)
+    yield getHotList({value: res.data.Data[0].id})
+
   } catch (e) {
     console.log(e)
   }

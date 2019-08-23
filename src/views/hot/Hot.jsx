@@ -41,8 +41,10 @@ class Hot extends Component {
 
   renderDetailList() {
     // todo
-    this.props.list.map((item, index) => {
-      console.log(item)
+    return this.props.list.map((item, index) => {
+      return (
+        <p key={index}>{item.title}</p>
+      )
     })
   }
 

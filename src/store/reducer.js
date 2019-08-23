@@ -14,7 +14,6 @@ export default (state = defaultState, action) => {
   }
 
   if (action.type === GET_TYPE) {
-    console.log('reducer', action)
     const newState = JSON.parse(JSON.stringify(state))
     newState.type = action.value
     return newState
