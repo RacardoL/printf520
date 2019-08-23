@@ -3,10 +3,12 @@
 }
 .hot-title-wrapper{
     display: flex;
+    flex-wrap: wrap;
     color: #555;
     font-size: 14px;
 }
 .hot-title-content{
+
     height: 42px;
     padding: 0 15px;
     margin: 0;
@@ -19,6 +21,9 @@
     background: #eee;
 }
 .border-choice{
+    height: 41px;
+    padding: 0 14px;
+    box-sizing: content-box;
     border-top: 1px solid #ddd;
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;

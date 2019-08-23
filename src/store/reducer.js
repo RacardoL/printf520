@@ -1,16 +1,22 @@
-// eslint-disable-next-line import/named
-import { GET_DETAIL_LIST } from './acitonTypes'
-
+import { ASYNC_LIST, GET_TYPE } from './acitonTypes'
 
 const defaultState = {
-  a: 'hello world'
+  list: [],
+  type: []
 }
 
 
 export default (state = defaultState, action) => {
-  if (action.type === GET_DETAIL_LIST) {
+  if (action.type === ASYNC_LIST) {
     const newState = JSON.parse(JSON.stringify(state))
-    newState.a = action.value
+    newState.list = action.value
+    return newState
+  }
+
+  if (action.type === GET_TYPE) {
+    console.log('reducer', action)
+    const newState = JSON.parse(JSON.stringify(state))
+    newState.type = action.value
     return newState
   }
 

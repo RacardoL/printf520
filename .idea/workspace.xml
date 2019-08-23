@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0687dfd0-3e12-4575-a8a5-ad8d0b9f90e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/api/hot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/http.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/acitonTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actionCreators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/sagas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/hot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/hot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/hot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/acitonTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/acitonTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actionCreators.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/sagas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/hot.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/hot.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/hot/Hot.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/hot/Hot.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +62,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.Hot.jsx">
+    <configuration name="Hot.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="Hot.jsx" working-dir="$PROJECT_DIR$/src/views/hot">
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -78,6 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.Hot.jsx" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -93,7 +94,8 @@
       <option name="presentableId" value="Default" />
       <updated>1566271646076</updated>
       <workItem from="1566271648560" duration="11155000" />
-      <workItem from="1566435145259" duration="6546000" />
+      <workItem from="1566435145259" duration="6648000" />
+      <workItem from="1566522780964" duration="8319000" />
     </task>
     <task id="LOCAL-00001" summary="[init] init program">
       <created>1566273783596</created>
@@ -151,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566437336767</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[add] Hot component">
+      <created>1566443408727</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1566443408727</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +186,19 @@
     <MESSAGE value="[add] edit readme" />
     <MESSAGE value="[add] finished Title component" />
     <MESSAGE value="[add] Foot component" />
-    <option name="LAST_COMMIT_MESSAGE" value="[add] Foot component" />
+    <MESSAGE value="[add] Hot component" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add] Hot component" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/views/hot/Hot.jsx</url>
+          <line>41</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
