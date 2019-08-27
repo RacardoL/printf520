@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0687dfd0-3e12-4575-a8a5-ad8d0b9f90e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/sagas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/hot.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/hot.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/hot/Hot.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/hot/Hot.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.Hot.jsx">
+  <component name="RunManager" selected="npm.start">
     <configuration name="Hot.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="Hot.jsx" working-dir="$PROJECT_DIR$/src/views/hot">
       <method v="2" />
     </configuration>
@@ -72,8 +72,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.Hot.jsx" />
         <item itemvalue="npm.start" />
+        <item itemvalue="Node.js.Hot.jsx" />
       </list>
     </recent_temporary>
   </component>
@@ -89,7 +89,8 @@
       <updated>1566271646076</updated>
       <workItem from="1566271648560" duration="11155000" />
       <workItem from="1566435145259" duration="6648000" />
-      <workItem from="1566522780964" duration="10298000" />
+      <workItem from="1566522780964" duration="11436000" />
+      <workItem from="1566549037269" duration="2020000" />
     </task>
     <task id="LOCAL-00001" summary="[init] init program">
       <created>1566273783596</created>
@@ -161,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566533948801</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[add] finished hot page's content">
+      <created>1566545378598</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1566545378598</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +197,7 @@
     <MESSAGE value="[add] Foot component" />
     <MESSAGE value="[add] Hot component" />
     <MESSAGE value="[add] finished saga config and hot pages type" />
-    <option name="LAST_COMMIT_MESSAGE" value="[add] finished saga config and hot pages type" />
+    <MESSAGE value="[add] finished hot page's content" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add] finished hot page's content" />
   </component>
 </project>

@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { getDetailListAction, getType } from '../../store/actionCreators';
-import '../../style/hot.css';
+import React, { Component } from 'react'
+import { connect } from 'react-redux'
+import { getDetailListAction, getType } from '../../store/actionCreators'
+import '../../style/hot.css'
 
 class Hot extends Component {
   constructor(props) {
     super(props)
     this.state = {
       choice: 0,
+      // eslint-disable-next-line react/no-unused-state
       id: -1,
     }
     this.renderTypesList = this.renderTypesList.bind(this)
@@ -25,6 +26,7 @@ class Hot extends Component {
   renderTypesList() {
     return this.props.type.map((item, index) => {
       return (
+        // eslint-disable-next-line jsx-a11y/click-events-have-key-events,jsx-a11y/no-noninteractive-element-interactions
         <p
           key={item.id}
           onClick={() => this.handleClickTags(item.id, index)}
@@ -43,7 +45,7 @@ class Hot extends Component {
     // todo
     return this.props.list.map((item, index) => {
       return (
-        <p key={index}>{item.title}</p>
+        <p className="list-div-wrapper" key={index}>{index + 1}.{item.title}</p>
       )
     })
   }
